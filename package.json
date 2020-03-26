@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-semanticui",
+  "version": "1.0.0",
+  "description": "Proyecto del tercer parcial de la clase de desarrollo de portales web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramon-Ventura/Proyecto-SemanticUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramon-Ventura/Proyecto-SemanticUI/issues"
+  },
+  "homepage": "https://github.com/Ramon-Ventura/Proyecto-SemanticUI#readme",
+  "dependencies": {
+    "semantic-ui": "^2.4.2"
+  }
+}
