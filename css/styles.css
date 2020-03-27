@@ -1,0 +1,28 @@
+body {
+  background-color: #2f3640;
+}
+
+.hero {
+  position: relative;
+  height: 28em;
+  background: url(../images/images-ramon/hero-godofwar.jpg) no-repeat center;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+p {
+  color: white;
+}
