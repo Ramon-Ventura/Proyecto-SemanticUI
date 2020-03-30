@@ -20,7 +20,10 @@
     background: url(../images/images-nohemy/SmashBros/hero/hero1.jpg!d)
       no-repeat center;
   }
-
+  .hero2-SMSBU {
+    background: url(../images/images-nohemy/SmashBros/hero/hero2.jfif)
+      no-repeat center;
+  }
   /*IMAGENES HERO PARA GOD OF WAR*/
   .hero1-gw {
     background: url(../images/images-ramon/gow/hero-images/hero1-godofwar.jpg)
@@ -43,7 +46,8 @@
   .hero2-gw,
   .hero3-gw,
   .hero4-gw,
-  .hero1-SMSBU {
+  .hero1-SMSBU,
+  .hero2-SMSBU {
     position: relative;
     height: 30em;
     background-attachment: fixed;
@@ -57,7 +61,8 @@
   .hero2-gw::after,
   .hero3-gw::after,
   .hero4-gw::after
-  .hero1-SMSBU::after {
+  .hero1-SMSBU::after,
+  .hero2-SMSBU::after {
     content: "";
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
