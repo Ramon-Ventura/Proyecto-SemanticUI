@@ -1,0 +1,208 @@
+:root {
+    --primary: #191919;
+    --primarylight: #2e2e2e;
+    --secondary: #0074d9;
+    --secondarylight: #2888db;
+    --white: #fff;
+  }
+  
+  body {
+    background-color: var(--primarylight);
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .ui.medium.attached.stackable.menu {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .ui.medium.attached.stackable.menu a {
+    color: var(--secondary);
+  }
+  
+  .ui.simple.dropdown.item {
+    color: var(--secondary);
+  }
+  
+  .ui.simple.dropdown.item .ui.menu {
+    background-color: var(--primary);
+  }
+  
+  .ui.simple.dropdown.item .ui.menu .item {
+    color: var(--secondary);
+  }
+  
+  .ui.justified.text.container.segment {
+    background-color: var(--primary);
+    margin: 4em 0;
+  }
+  
+  .ui.justified.text.container.segment h2 {
+    color: var(--secondary);
+  }
+  
+  .ui.large.vertical.labeled.icon.buttons .ui.segment {
+    background-color: var(--primary);
+  }
+  .ui.large.vertical.labeled.icon.buttons .ui.segment h2 {
+    color: var(--secondary);
+  }
+  .ui.large.vertical.labeled.icon.buttons .ui.button {
+    background-color: var(--secondary);
+    color: var(--white);
+  }
+  
+  .ui.large.vertical.labeled.icon.buttons .ui.button:hover {
+    background-color: var(--secondarylight);
+  }
+  
+  /*IMAGENES HERO PARA GOD OF WAR*/
+  .hero1-gw {
+    background: url(../images/images-ramon/gow/hero-images/hero1-godofwar.jpg)
+      no-repeat center;
+  }
+  .hero2-gw {
+    background: url(../images/images-ramon/gow/hero-images/hero2-godofwar.jpg)
+      no-repeat center;
+  }
+  
+  .hero3-gw {
+    background: url(../images/images-ramon/gow/hero-images/hero3-godofwar.jpg)
+      no-repeat center;
+  }
+  .hero4-gw {
+    background: url(../images/images-ramon/gow/hero-images/hero4-godofwar.jpg)
+      no-repeat center;
+  }
+  /*IMAGENES HERO PARA THE LAST OF US REMASTERED*/
+  .hero1-tlu {
+    background: url(../images/images-ramon/tlu/hero-images/hero1-TheLastOfUs.jpg)
+      no-repeat center;
+  }
+  .hero2-tlu {
+    background: url(../images/images-ramon/tlu/hero-images/hero2-TheLastOfUs.jpg)
+      no-repeat center;
+  }
+  
+  .hero3-tlu {
+    background: url(../images/images-ramon/tlu/hero-images/hero3-TheLastOfUs.jpg)
+      no-repeat center;
+  }
+  .hero4-tlu {
+    background: url(../images/images-ramon/tlu/hero-images/hero4-TheLastOfUs.jpg)
+      no-repeat center;
+  }
+  
+  .hero {
+    position: relative;
+    height: 30em;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .hero-content {
+    width: 90%;
+    color: white;
+    z-index: 1;
+    display: flex;
+    text-align: center;
+  }
+  
+  .information {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-content p {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .review-content {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .review-content .ui.header {
+    color: var(--secondary);
+  }
+  .iframe-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.2%;
+    margin-bottom: 20px;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circular-container {
+    margin: 0 auto;
+    display: flex;
+    height: 6.25em;
+    width: 6.25em;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--secondary);
+    border-radius: 50%;
+  }
+  
+  .site-footer {
+    text-align: center;
+    background-color: var(--primary);
+    padding: 1em;
+  }
+  @media (min-width: 768px) {
+    .hero {
+      align-items: flex-end;
+    }
+    .information {
+      flex-direction: row;
+    }
+    .info-content {
+      text-align: left;
+      margin-left: 1em;
+    }
+    .sales {
+      text-align: right;
+    }
+    .review-content {
+      text-align: left;
+    }
+    .review-content p {
+      margin-left: 1em;
+    }
+    .circular-container {
+      margin: 2em auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .info-image {
+      display: none;
+    }
+  }
+  
