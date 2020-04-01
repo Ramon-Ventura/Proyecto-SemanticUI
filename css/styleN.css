@@ -67,6 +67,10 @@ p {
   background: url(../images/images-nohemy/MarioKart8Deluxe/hero/hero2.png)
     no-repeat center;
 }
+.hero3-MK8D {
+  background: url(../images/images-nohemy/MarioKart8Deluxe/hero/hero3.jpg)
+    no-repeat center;
+}
 /*IMAGENES HERO PARA Super Mario Smash Bros Ultimate*/
   .hero1-SMSBU {
     background: url(../images/images-nohemy/SmashBros/hero/hero1.jpg!d)
