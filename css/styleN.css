@@ -80,6 +80,10 @@ p {
   background: url(../images/images-nohemy/SuperMarioOdyssey/hero/hero1.png)
     no-repeat center;
 }
+.hero2-SMO {
+  background: url(../images/images-nohemy/SuperMarioOdyssey/hero/hero2.png)
+    no-repeat center;
+}
 /*MAGENES HERO PARA Super Mario Smash Bros Ultimate*/
   .hero1-SMSBU {
     background: url(../images/images-nohemy/SmashBros/hero/hero1.jpg!d)
