@@ -1,67 +1,70 @@
+:root {
+  --primary: #191919;
+  --primarylight: #2e2e2e;
+  --secondary: #0074d9;
+  --secondarylight: #2888db;
+  --white: #fff;
+}
+
+body {
+  background-color: var(--primarylight);
+}
+
+p {
+  color: white;
+}
+
+.ui.medium.attached.stackable.menu {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.ui.medium.attached.stackable.menu a {
+  color: var(--secondary);
+}
+
+.ui.simple.dropdown.item {
+  color: var(--secondary);
+}
+
+.ui.simple.dropdown.item .ui.menu {
+  background-color: var(--primary);
+}
+
+.ui.simple.dropdown.item .ui.menu .item {
+  color: var(--secondary);
+}
+
+.ui.justified.text.container.segment {
+  background-color: var(--primary);
+  margin: 4em 0;
+}
+
+.ui.justified.text.container.segment h2 {
+  color: var(--secondary);
+}
+
+.ui.large.vertical.labeled.icon.buttons .ui.segment {
+  background-color: var(--primary);
+}
+.ui.large.vertical.labeled.icon.buttons .ui.segment h2 {
+  color: var(--secondary);
+}
+.ui.large.vertical.labeled.icon.buttons .ui.button {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.ui.large.vertical.labeled.icon.buttons .ui.button:hover {
+  background-color: var(--secondarylight);
+}
+/*IMAGENES HERO PARA MARIO KART 8 DELUXE*/
+.hero1-MK8D {
+  background: url(../images/images-nohemy/MarioKart8Deluxe/hero/hero1.png)
+    no-repeat center;
+}
+
 /*IMAGENES HERO PARA Super Mario Smash Bros Ultimate*/
-
-
-
-  :root {
-    --primary: #1b1c1d;
-    --primarylight: #2d3436;
-  }
-  
-  body {
-    background-color: var(--primarylight);
-  }
-  
-  p {
-    color: white;
-  }
-  
-
-  .ui.medium.attached.stackable.menu {
-    background-color: var(--primary);
-    border-color: var(--primary);
-  }
-  
-  .ui.medium.attached.stackable.menu a {
-    color: var(--secondary);
-  }
-  
-  .ui.simple.dropdown.item {
-    color: var(--secondary);
-  }
-  
-  .ui.simple.dropdown.item .ui.menu {
-    background-color: var(--primary);
-  }
-  
-  .ui.simple.dropdown.item .ui.menu .item {
-    color: var(--secondary);
-  }
-  
-  .ui.justified.text.container.segment {
-    background-color: var(--primary);
-    margin: 4em 0;
-  }
-  
-  .ui.justified.text.container.segment h2 {
-    color: var(--secondary);
-  }
-  
-  .ui.large.vertical.labeled.icon.buttons .ui.segment {
-    background-color: var(--primary);
-  }
-  .ui.large.vertical.labeled.icon.buttons .ui.segment h2 {
-    color: var(--secondary);
-  }
-  .ui.large.vertical.labeled.icon.buttons .ui.button {
-    background-color: var(--secondary);
-    color: var(--white);
-  }
-  
-  .ui.large.vertical.labeled.icon.buttons .ui.button:hover {
-    background-color: var(--secondarylight);
-  }
-
-
   .hero1-SMSBU {
     background: url(../images/images-nohemy/SmashBros/hero/hero1.jpg!d)
       no-repeat center;
