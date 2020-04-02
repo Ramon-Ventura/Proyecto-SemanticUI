@@ -58,6 +58,12 @@ p {
 .ui.large.vertical.labeled.icon.buttons .ui.button:hover {
   background-color: var(--secondarylight);
 }
+/*IMAGENES HERO PARA INICIO DE NINTENDO*/
+.hero1-NINTENDO {
+  background: url(../images/images-nohemy/Nintendo/NintendoSwitch.jpg)
+    no-repeat center;
+}
+
 /*IMAGENES HERO PARA MARIO KART 8 DELUXE*/
 .hero1-MK8D {
   background: url(../images/images-nohemy/MarioKart8Deluxe/hero/hero1.png)
