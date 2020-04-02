@@ -63,6 +63,11 @@ p {
   background: url(../images/images-nohemy/Nintendo/Nintendo.png)
     no-repeat center;
 }
+/*IMAGENES HERO PARA SUPER MARIO PARTY*/
+.hero1-SMP {
+  background: url(../images/images-nohemy/SuperMarioParty/hero/hero1.jpg)
+    no-repeat center;
+}
 
 /*IMAGENES HERO PARA MARIO KART 8 DELUXE*/
 .hero1-MK8D {
