@@ -58,7 +58,34 @@
   .ui.large.vertical.labeled.icon.buttons .ui.button:hover {
     background-color: var(--secondarylight);
   }
-  
+  .minimo {
+    margin: 0em auto;
+    float: left;
+    display: flex;
+    height: 6.25em;
+    width: 6.25em;
+    justify-content: space-evenly;
+    align-items: left;
+  }
+  .recomendado {
+    padding: 0em;
+    margin-top: 0em;
+    float: right;
+    display: flex;
+    height: 6.25em;
+    width: 6.25em;
+    justify-content: space-evenly;
+    align-items: right;
+  }
+  .idioma {
+    padding: 10em;
+    margin-top: 15em;
+    position: relative;
+    display: flex;
+    height: 6.25em;
+    width: 6.25em;
+    align-items: center;
+  }
   /*IMAGENES HERO PARA JOHN WICK HEX*/
   .hero1-john {
     background: url(../images/images-will/John/hero-john/john-wick-hex-hero1.png)
