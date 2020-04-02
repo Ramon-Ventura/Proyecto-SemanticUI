@@ -59,7 +59,7 @@
     background-color: var(--secondarylight);
   }
   
-  /*IMAGENES HERO PARA GOD OF WAR*/
+  /*IMAGENES HERO PARA JOHN WICK HEX*/
   .hero1-john {
     background: url(../images/images-will/John/hero-john/john-wick-hex-hero1.png)
       no-repeat center;
@@ -70,11 +70,11 @@
   }
   
   .hero3-john {
-    background: url(../images/images-ramon/gow/hero-images/hero3-godofwar.jpg)
+    background: url(../images/images-will/John/hero-john/johnwickhexhero3.png)
       no-repeat center;
   }
   .hero4-john {
-    background: url(../images/images-ramon/gow/hero-images/hero4-godofwar.jpg)
+    background: url(../images/images-will/John/hero-john/hero4john.jpg)
       no-repeat center;
   }
   /*IMAGENES HERO PARA THE LAST OF US REMASTERED*/
