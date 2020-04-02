@@ -68,7 +68,10 @@ p {
   background: url(../images/images-nohemy/SuperMarioParty/hero/hero1.jpg)
     no-repeat center;
 }
-
+.hero2-SMP {
+  background: url(../images/images-nohemy/SuperMarioParty/hero/hero2.jpg)
+    no-repeat center;
+}
 /*IMAGENES HERO PARA MARIO KART 8 DELUXE*/
 .hero1-MK8D {
   background: url(../images/images-nohemy/MarioKart8Deluxe/hero/hero1.png)
