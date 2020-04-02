@@ -117,21 +117,21 @@ Estilos para la lista de los requisitos y lo idimos
     center;
 }
 /*IMAGENES HERO PARA THE LAST OF US REMASTERED*/
-.hero1-tlu {
-  background: url(../images/images-ramon/tlu/hero-images/hero1-TheLastOfUs.jpg)
+.hero1-stygian {
+  background: url(../images/images-will/Stygian/heroStygian/stygian_reign_of_the_old_ones-hero1.jpg)
     no-repeat center;
 }
-.hero2-tlu {
-  background: url(../images/images-ramon/tlu/hero-images/hero2-TheLastOfUs.jpg)
+.hero2-stygian {
+  background: url(../images/images-will/Stygian/heroStygian/stygian_reign_of_the_old_ones-hero2.jpg)
     no-repeat center;
 }
 
-.hero3-tlu {
-  background: url(../images/images-ramon/tlu/hero-images/hero3-TheLastOfUs.jpg)
+.hero3-stygian {
+  background: url(../images/images-will/Stygian/heroStygian/stygian_reign_of_the_old_ones-hero3.jpg)
     no-repeat center;
 }
-.hero4-tlu {
-  background: url(../images/images-ramon/tlu/hero-images/hero4-TheLastOfUs.jpg)
+.hero4-stygian {
+  background: url(../images/images-will/Stygian/heroStygian/stygian_reign_of_the_old_ones-hero4.jpg)
     no-repeat center;
 }
 
