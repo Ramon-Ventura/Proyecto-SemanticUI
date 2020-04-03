@@ -154,6 +154,25 @@ Estilos para la lista de los requisitos y lo idimos
     no-repeat center;
 }
 
+/*IMAGENES HERO PARA GHOST RECON WILDLANDS*/
+.hero1-rainbow {
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero1.jpg)
+    no-repeat center;
+}
+.hero2-rainbow {
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero2.jpg)
+    no-repeat center;
+}
+
+.hero3-rainbow {
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero3.jpg)
+    no-repeat center;
+}
+.hero4-rainbow{
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero4.jpg)
+    no-repeat center;
+}
+
 .hero {
   position: relative;
   height: 30em;
