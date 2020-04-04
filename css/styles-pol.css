@@ -99,6 +99,25 @@ p {
     background: url(../images/images-pol/fighterwithin/fw2.jpg) no-repeat center;
 }
 
+
+/*IMAGENES HERO PARA FORZA MOTORSPORT 6*/
+
+.hero1-fm {
+    background: url(../images/images-pol/forzamotorsport6/fm1.jpg) no-repeat center;
+}
+
+.hero2-fm {
+    background: url(../images/images-pol/forzamotorsport6/fm2.jpg) no-repeat center;
+}
+
+.hero3-fm {
+    background: url(../images/images-pol/forzamotorsport6/fm3.jpg) no-repeat center;
+}
+
+.hero4-fm {
+    background: url(../images/images-pol/forzamotorsport6/fm4.jpg) no-repeat center;
+}
+
 .hero {
     position: relative;
     height: 30em;
