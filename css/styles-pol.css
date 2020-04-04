@@ -45,3 +45,7 @@ ui.medium.attached.stackable.menu a {
 .ui.justified.text.container.segment h2 {
     color: var(--secundary);
 }
+
+.ui.large.vertical.labeled.icon.buttons.ui.segment {
+    background-color: var(--primary);
+}
