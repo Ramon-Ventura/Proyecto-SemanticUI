@@ -137,6 +137,25 @@ p {
     background: url(../images/images-pol/halo5guardians/halo3.jpg) no-repeat center;
 }
 
+
+/*IMAGENES HERO PARA QUANTUM BREAK*/
+
+.hero1-qb {
+    background: url(../images/images-pol/quantumbreak/qb4.jpg) no-repeat center;
+}
+
+.hero2-qb {
+    background: url(../images/images-pol/quantumbreak/qb3.jpg) no-repeat center;
+}
+
+.hero3-qb {
+    background: url(../images/images-pol/quantumbreak/qb2.jpg) no-repeat center;
+}
+
+.hero4-qb {
+    background: url(../images/images-pol/quantumbreak/qb1.jpg) no-repeat center;
+}
+
 .hero {
     position: relative;
     height: 30em;
