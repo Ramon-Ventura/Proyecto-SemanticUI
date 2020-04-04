@@ -118,6 +118,25 @@ p {
     background: url(../images/images-pol/forzamotorsport6/fm4.jpg) no-repeat center;
 }
 
+
+/*IMAGENES HERO PARA HALO 5: GUARDIANS*/
+
+.hero1-h {
+    background: url(../images/images-pol/halo5guardians/halo6.jpg) no-repeat center;
+}
+
+.hero2-h {
+    background: url(../images/images-pol/halo5guardians/halo5.jpg) no-repeat center;
+}
+
+.hero3-h {
+    background: url(../images/images-pol/halo5guardians/halo4.jpg) no-repeat center;
+}
+
+.hero4-h {
+    background: url(../images/images-pol/halo5guardians/halo3.jpg) no-repeat center;
+}
+
 .hero {
     position: relative;
     height: 30em;
