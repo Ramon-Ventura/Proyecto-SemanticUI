@@ -58,6 +58,11 @@ p {
 .ui.large.vertical.labeled.icon.buttons .ui.button:hover {
   background-color: var(--secondarylight);
 }
+/*IMAGENES HERO PARA THE LEYEND OF ZELDA*/
+.hero1-TLOZ {
+  background: url(../images/images-nohemy/Zelda-BreathOfTheWild/hero/hero1.jpg)
+    no-repeat center;
+}
 /*IMAGENES HERO PARA INICIO DE NINTENDO*/
 .hero1-NINTENDO {
   background: url(../images/images-nohemy/Nintendo/Nintendo.png)
