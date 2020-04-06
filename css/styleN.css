@@ -63,6 +63,10 @@ p {
   background: url(../images/images-nohemy/Zelda-BreathOfTheWild/hero/hero1.jpg)
     no-repeat center;
 }
+.hero2-TLOZ {
+  background: url(../images/images-nohemy/Zelda-BreathOfTheWild/hero/hero2.jpg)
+    no-repeat center;
+}
 /*IMAGENES HERO PARA INICIO DE NINTENDO*/
 .hero1-NINTENDO {
   background: url(../images/images-nohemy/Nintendo/Nintendo.png)
