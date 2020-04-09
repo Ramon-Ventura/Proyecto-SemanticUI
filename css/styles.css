@@ -113,6 +113,24 @@ p {
     no-repeat center;
 }
 
+/*IMAGENES HERO PARA UNCHARTED*/
+.hero1-ut {
+  background: url(../images/images-ramon/uncharted/hero-images/hero1-uncharted.jpg)
+    no-repeat center;
+}
+.hero2-ut {
+  background: url(../images/images-ramon/uncharted/hero-images/hero2-uncharted.jpg)
+    no-repeat center;
+}
+.hero3-ut {
+  background: url(../images/images-ramon/uncharted/hero-images/hero3-uncharted.jpg)
+    no-repeat center;
+}
+.hero4-ut {
+  background: url(../images/images-ramon/uncharted/hero-images/hero4-uncharted.jpg)
+    no-repeat center;
+}
+
 .hero {
   position: relative;
   height: 30em;
