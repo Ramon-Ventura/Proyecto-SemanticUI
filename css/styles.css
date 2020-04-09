@@ -95,6 +95,23 @@ p {
   background: url(../images/images-ramon/tlu/hero-images/hero4-TheLastOfUs.jpg)
     no-repeat center;
 }
+/*IMAGENES HERO PARA BLOODBORNE */
+.hero1-bb {
+  background: url(../images/images-ramon/bloodb/hero-images/hero1-bloodborne.jpg)
+    no-repeat center;
+}
+.hero2-bb {
+  background: url(../images/images-ramon/bloodb/hero-images/hero2-bloodborne.jpg)
+    no-repeat center;
+}
+.hero3-bb {
+  background: url(../images/images-ramon/bloodb/hero-images/hero3-bloodborne.jpg)
+    no-repeat center;
+}
+.hero4-bb {
+  background: url(../images/images-ramon/bloodb/hero-images/hero4-bloodborne.jpg)
+    no-repeat center;
+}
 
 .hero {
   position: relative;
