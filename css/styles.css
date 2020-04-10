@@ -131,6 +131,24 @@ p {
     no-repeat center;
 }
 
+/*IMAGENES HERO PARA DEATH STRANDING*/
+.hero1-dst {
+  background: url(../images/images-ramon/dst/hero-images/hero1-dst.jpg)
+    no-repeat center;
+}
+.hero2-dst {
+  background: url(../images/images-ramon/dst/hero-images/hero2-dst.jpg)
+    no-repeat center;
+}
+.hero3-dst {
+  background: url(../images/images-ramon/dst/hero-images/hero3-dst.jpg)
+    no-repeat center;
+}
+.hero4-dst {
+  background: url(../images/images-ramon/dst/hero-images/hero4-dst.jpg)
+    no-repeat center;
+}
+
 .hero {
   position: relative;
   height: 30em;
