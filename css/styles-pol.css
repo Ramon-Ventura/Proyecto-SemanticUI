@@ -264,32 +264,32 @@ p {
     }
 }
 
-@media (max-width: 768px) {
-    .info-image {
-        display: none;
-    }
-}
-
 
 /*Estilo para pagina de  XBOX ONE*/
 
-.ui.items.ui.inverted.header {
+.ui.items .ui.inverted.header {
     color: var(--white);
 }
 
-ui.items.ui.right.floated.button {
-    background-color: var(--secondary);
-}
-
-.ui.items.ui.right.floated.button a {
+.ui.items .ui.right.floated.button a {
     text-decoration: none;
     color: var(--white);
 }
 
-.ui.items.ui.right.floated.button:hover {
+.ui.items .ui.right.floated.button {
+    background-color: var(--secondary);
+}
+
+.ui.items .ui.right.floated.button:hover {
     background-color: var(--secondarylight);
 }
 
-.hero-XBOX {
-    background: url(../images/images-pol/xboxone/log1.jpg);
+.hero-xbox {
+    background: url(../images/images-pol/xboxone/log1.jpg) no-repeat center;
+}
+
+@media (max-width: 768px) {
+    .info-image {
+        display: none;
+    }
 }
