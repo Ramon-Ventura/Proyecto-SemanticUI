@@ -61,6 +61,9 @@ p {
   background-color: var(--secondarylight);
 }
 
+/*ESTILOS PARA EL CATALOGO DE CADA CONSOLA
+COPIAR ESTA SECCION
+*/
 .ui.items .ui.inverted.header {
   color: var(--white);
 }
@@ -79,6 +82,9 @@ p {
 .hero-ps4 {
   background: url(../images/images-ramon/ps4/hero-ps4.jpg) no-repeat center;
 }
+/*
+ESTILOS PARA EL CATALOGO DE CADA CONSOLA
+-------------------------------------------------------------------------*/
 
 /*IMAGENES HERO PARA GOD OF WAR*/
 
