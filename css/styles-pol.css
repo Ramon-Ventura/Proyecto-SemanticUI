@@ -269,3 +269,27 @@ p {
         display: none;
     }
 }
+
+
+/*Estilo para pagina de  XBOX ONE*/
+
+.ui.items.ui.inverted.header {
+    color: var(--white);
+}
+
+ui.items.ui.right.floated.button {
+    background-color: var(--secondary);
+}
+
+.ui.items.ui.right.floated.button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.ui.items.ui.right.floated.button:hover {
+    background-color: var(--secondarylight);
+}
+
+.hero-XBOX {
+    background: url(../images/images-pol/xboxone/log1.jpg);
+}
