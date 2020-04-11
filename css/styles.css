@@ -59,6 +59,25 @@ p {
   background-color: var(--secondarylight);
 }
 
+.ui.items .ui.inverted.header {
+  color: var(--white);
+}
+
+.ui.items .ui.right.floated.button {
+  background-color: var(--secondary);
+}
+.ui.items .ui.right.floated.button a {
+  text-decoration: none;
+  color: var(--white);
+}
+.ui.items .ui.right.floated.button:hover {
+  background-color: var(--secondarylight);
+}
+/*IMAGEN HERO PARA PS4*/
+.hero-ps4 {
+  background: url(../images/images-ramon/ps4/hero-ps4.jpg) no-repeat center;
+}
+
 /*IMAGENES HERO PARA GOD OF WAR*/
 .hero1-gw {
   background: url(../images/images-ramon/gow/hero-images/hero1-godofwar.jpg)
