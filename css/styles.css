@@ -61,6 +61,10 @@ p {
   background-color: var(--secondarylight);
 }
 
+.ui.stackable.two.column.grid .column .ui.segment,
+.ui.stackable.three.column.grid .column .ui.segment {
+  background-color: var(--primarylight);
+}
 /*ESTILOS PARA EL CATALOGO DE CADA CONSOLA
 COPIAR ESTA SECCION
 */
