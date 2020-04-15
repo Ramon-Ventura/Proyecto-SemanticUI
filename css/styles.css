@@ -97,6 +97,7 @@ COPIAR ESTA SECCION
 .hero-ps4 {
   background: url(../images/images-ramon/ps4/hero-ps4.jpg) no-repeat center;
 }
+<<<<<<< HEAD
 .hero-xbox {
   background: url(../images/images-pol/xboxone/log1.jpg) no-repeat center;
 }
@@ -108,6 +109,11 @@ COPIAR ESTA SECCION
   background: url(../images/images-ramon/ps4/hero-ps4.jpg) no-repeat center;
 }
 
+=======
+.hero-pc{
+  background: url(../images/images-will/heropc/5F7F2ZKX6RHXHC2JC3THCA3ICQ.jpg) no-repeat center;
+}
+>>>>>>> develop-will
 /*
 ESTILOS PARA EL CATALOGO DE CADA CONSOLA
 -------------------------------------------------------------------------*/
