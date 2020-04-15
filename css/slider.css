@@ -1,0 +1,86 @@
+:root {
+  --primary: #191919;
+  --primarylight: #2e2e2e;
+  --secondary: #0074d9;
+  --secondarylight: #2888db;
+  --white: #fff;
+}
+
+#slideshow_principal {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#progress-bar-container {
+  position: absolute;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#progress-bar {
+  height: 100%;
+  background-color: var(--secondary);
+  border-radius: 0 3px 3px 0;
+  transition: width 0.8s;
+}
+
+#slideshow {
+  position: relative;
+  z-index: 998;
+  height: 35em;
+}
+
+#slideshow::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+#img2 {
+  left: 100%;
+}
+
+.active {
+  left: 0 !important;
+  transition: all 1s;
+}
+
+#indicadores {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  z-index: 999;
+}
+
+.circles {
+  border: white 2px solid;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.resaltado {
+  background-color: var(--secondarylight);
+  transition: background-color 0.8s;
+}

@@ -16,6 +16,141 @@
       crossorigin="anonymous"
     ></script>
     <script src="../semantic/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="../css/slider.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="ui inverted medium attached stackable menu">
+      <div class="ui container">
+        <a class="item"> <i class="home icon"></i>Inicio</a>
+        <a class="item"> <i class="grid layout icon"></i>Noticias</a>
+        <a class="item"> <i class="mail icon"></i> Acerca De </a>
+        <div class="ui simple dropdown item">
+          VideoJuegos
+          <i class="dropdown icon"></i>
+          <div class="ui menu">
+            <a class="item"><i class="edit icon"></i>PC</a>
+            <a class="item"><i class="globe icon"></i>PS4</a>
+            <a class="item"><i class="settings icon"></i>XBOX ONE</a>
+            <a class="item"><i class="settings icon"></i>Switch</a>
+          </div>
+        </div>
+        <div class="right item">
+          <div class="ui input">
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CODIGO DEL SLIDER-->
+    <div id="slideshow_principal">
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="slideshow">
+        <img src="" alt="" id="img1" />
+        <img src="" alt="" id="img2" />
+      </div>
+      <div id="indicadores"></div>
+    </div>
+    <script src="../js/slider.js"></script>
+    <!--FINALIZA CODIGO DEL SLIDER-->
+    <div class="ui justified text container segment">
+      <h2 class="ui header">NUESTRAS PLATAFORMAS</h2>
+      <div class="ui inverted divider"></div>
+      <div class="ui stackable two column grid">
+        <div class="column">
+          <div class="ui segment">
+            <img
+              class="ui medium centered image"
+              src="../images/consolas/ps4-consola.jpg"
+              alt=""
+            />
+            <h3 class="ui inverted header">PS4</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui inverted segment">
+            <img
+              class="ui medium centered image"
+              src="../images/consolas/xbox-consola.jpg"
+              alt=""
+            />
+            <h3 class="ui inverted header">XBOX-ONE</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            <a href="">
+              <img
+                class="ui medium centered image"
+                src="../images/consolas/switch-consola.jpg"
+                alt=""
+              />
+            </a>
+            <h3 class="ui inverted header">SWITCH</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            <img
+              class="ui medium centered image"
+              src="../images/consolas/pc-consola.jpg"
+              alt=""
+            />
+            <h3 class="ui inverted header">PC</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui justified text container segment">
+      <h2 class="ui header">NUESTRO CATALOGO</h2>
+      <div class="ui inverted divider"></div>
+      <div class="ui stackable two column grid">
+        <div class="column">
+          <div class="ui segment">
+            <a href="">
+              <img
+                class="ui medium centered image"
+                src="../images/images-ramon/bloodb/bloodborne-caratula.jpg"
+                alt=""
+              />
+            </a>
+            <h3 class="ui inverted header">BloodBorne</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            <a href="">
+              <img
+                class="ui medium centered image"
+                src="../images/images-ramon/bloodb/bloodborne-caratula.jpg"
+                alt=""
+              />
+            </a>
+            <h3 class="ui inverted header">BloodBorne</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="ui fluid inverted container">
+        <button class="ui circular facebook icon button">
+          <i class="facebook icon"></i>
+        </button>
+        <button class="ui circular twitter icon button">
+          <i class="twitter icon"></i>
+        </button>
+        <button class="ui circular linkedin icon button">
+          <i class="linkedin icon"></i>
+        </button>
+        <button class="ui circular google plus icon button">
+          <i class="google plus icon"></i>
+        </button>
+        <h3 class="ui inverted header">
+          Semantic Games Todos los derechos resevados &copy;
+        </h3>
+      </div>
+    </footer>
+  </body>
 </html>
