@@ -75,6 +75,15 @@ p {
 .ui.stackable.five.column.grid .column .ui.segment {
   background-color: var(--primarylight);
 }
+.img-c {
+  height: 20em;
+  width: auto;
+}
+
+.ui.justified.fluid.container.segment {
+  margin-bottom: 10em;
+}
+
 /*ESTILOS PARA EL CATALOGO DE CADA CONSOLA
 COPIAR ESTA SECCION
 */
