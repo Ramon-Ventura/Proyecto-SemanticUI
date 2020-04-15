@@ -60,9 +60,20 @@ p {
 .ui.large.vertical.labeled.icon.buttons .ui.button:hover {
   background-color: var(--secondarylight);
 }
+.ui.justified.container.segment {
+  background-color: var(--primary);
+}
+.ui.justified.container.segment .ui.header {
+  color: var(--secondary);
+}
+
+.ui.justified.container.segment .ui.inverted.header {
+  color: var(--white);
+  text-align: center;
+}
 
 .ui.stackable.two.column.grid .column .ui.segment,
-.ui.stackable.three.column.grid .column .ui.segment {
+.ui.stackable.five.column.grid .column .ui.segment {
   background-color: var(--primarylight);
 }
 /*ESTILOS PARA EL CATALOGO DE CADA CONSOLA
