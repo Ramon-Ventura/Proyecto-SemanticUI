@@ -59,7 +59,6 @@ p {
   background-color: var(--secondarylight);
 }
 
-  
 .hero {
   position: relative;
   height: 30em;
@@ -170,9 +169,7 @@ p {
   }
 }
 
-/*TODOS LOS HERO DE NINTENDO SWITCH*/ 
-
-
+/*TODOS LOS HERO DE NINTENDO SWITCH*/
 /*IMAGENES HERO PARA THE LEYEND OF ZELDA*/
 .hero1-TLOZ {
   background: url(../images/images-nohemy/Zelda-BreathOfTheWild/hero/hero1.jpg)
@@ -192,8 +189,8 @@ p {
 }
 /*IMAGENES HERO PARA INICIO DE NINTENDO*/
 .hero1-NINTENDO {
-  background: url(../images/images-nohemy/Nintendo/Nintendo.png)
-    no-repeat center;
+  background: url(../images/images-nohemy/Nintendo/Nintendo.png) no-repeat
+    center;
 }
 /*IMAGENES HERO PARA SUPER MARIO PARTY*/
 .hero1-SMP {
@@ -243,43 +240,42 @@ p {
     no-repeat center;
 }
 /*MAGENES HERO PARA Super Mario Smash Bros Ultimate*/
-  .hero1-SMSBU {
-    background: url(../images/images-nohemy/SmashBros/hero/hero1.jpg!d)
-      no-repeat center;
-  }
-  .hero2-SMSBU {
-    background: url(../images/images-nohemy/SmashBros/hero/hero2.jfif)
-      no-repeat center;
-  }
-  .hero3-SMSBU {
-    background: url(../images/images-nohemy/SmashBros/hero/hero3.jpg)
-      no-repeat center;
-  }
-  .hero4-SMSBU {
-    background: url(../images/images-nohemy/SmashBros/hero/hero4.jpg)
-      no-repeat center;
-  }
-  /*IMAGENES HERO PARA GOD OF WAR*/
-  .hero1-gw {
-    background: url(../images/images-ramon/gow/hero-images/hero1-godofwar.jpg)
-      no-repeat center;
-  }
-  .hero2-gw {
-    background: url(../images/images-ramon/gow/hero-images/hero2-godofwar.jpg)
-      no-repeat center;
-  }
-  
-  .hero3-gw {
-    background: url(../images/images-ramon/gow/hero-images/hero3-godofwar.jpg)
-      no-repeat center;
-  }
-  .hero4-gw {
-    background: url(../images/images-ramon/gow/hero-images/hero4-godofwar.jpg)
-      no-repeat center;
-  }
+.hero1-SMSBU {
+  background: url(../images/images-nohemy/SmashBros/hero/hero1.jpg!d) no-repeat
+    center;
+}
+.hero2-SMSBU {
+  background: url(../images/images-nohemy/SmashBros/hero/hero2.jfif) no-repeat
+    center;
+}
+.hero3-SMSBU {
+  background: url(../images/images-nohemy/SmashBros/hero/hero3.jpg) no-repeat
+    center;
+}
+.hero4-SMSBU {
+  background: url(../images/images-nohemy/SmashBros/hero/hero4.jpg) no-repeat
+    center;
+}
+/*IMAGENES HERO PARA GOD OF WAR*/
+.hero1-gw {
+  background: url(../images/images-ramon/gow/hero-images/hero1-godofwar.jpg)
+    no-repeat center;
+}
+.hero2-gw {
+  background: url(../images/images-ramon/gow/hero-images/hero2-godofwar.jpg)
+    no-repeat center;
+}
 
+.hero3-gw {
+  background: url(../images/images-ramon/gow/hero-images/hero3-godofwar.jpg)
+    no-repeat center;
+}
+.hero4-gw {
+  background: url(../images/images-ramon/gow/hero-images/hero4-godofwar.jpg)
+    no-repeat center;
+}
 
-  /*ESTILOS PARA EL CATALOGO DE CADA CONSOLA
+/*ESTILOS PARA EL CATALOGO DE CADA CONSOLA
 COPIAR ESTA SECCION
 */
 .ui.items .ui.inverted.header {
