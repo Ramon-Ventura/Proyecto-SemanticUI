@@ -69,7 +69,6 @@ p {
 
 .ui.justified.container.segment .ui.inverted.header {
   color: var(--white);
-  text-align: center;
 }
 
 .ui.stackable.two.column.grid .column .ui.segment,
@@ -97,7 +96,6 @@ COPIAR ESTA SECCION
 .hero-ps4 {
   background: url(../images/images-ramon/ps4/hero-ps4.jpg) no-repeat center;
 }
-<<<<<<< HEAD
 .hero-xbox {
   background: url(../images/images-pol/xboxone/log1.jpg) no-repeat center;
 }
@@ -109,11 +107,6 @@ COPIAR ESTA SECCION
   background: url(../images/images-ramon/ps4/hero-ps4.jpg) no-repeat center;
 }
 
-=======
-.hero-pc{
-  background: url(../images/images-will/heropc/5F7F2ZKX6RHXHC2JC3THCA3ICQ.jpg) no-repeat center;
-}
->>>>>>> develop-will
 /*
 ESTILOS PARA EL CATALOGO DE CADA CONSOLA
 -------------------------------------------------------------------------*/
@@ -401,6 +394,147 @@ ESTILOS PARA EL CATALOGO DE CADA CONSOLA
   background: url(../images/images-nohemy/SmashBros/hero/hero4.jpg) no-repeat
     center;
 }
+
+/*IMAGENES HERO PARA PC*/
+
+/*
+Estilos para la lista de los requisitos y lo idimos
+*/
+.ui.bulleted.list .item {
+  color: var(--white);
+}
+
+.languages {
+  margin-top: 3em;
+  text-align: left;
+}
+
+.languages .ui.header {
+  color: var(--white);
+}
+
+.minimo {
+  margin: 0em auto;
+  float: left;
+  display: flex;
+  height: 6.25em;
+  width: 6.25em;
+  justify-content: space-evenly;
+  align-items: left;
+}
+.recomendado {
+  padding: 0em;
+  margin-top: 0em;
+  float: right;
+  display: flex;
+  height: 6.25em;
+  width: 6.25em;
+  justify-content: space-evenly;
+  align-items: right;
+}
+.idioma {
+  padding: 10em;
+  margin-top: 15em;
+  position: relative;
+  display: flex;
+  height: 6.25em;
+  width: 6.25em;
+  align-items: center;
+}
+/*IMAGENES HERO PARA JOHN WICK HEX*/
+.hero1-john {
+  background: url(../images/images-will/John/hero-john/john-wick-hex-hero1.png)
+    no-repeat center;
+}
+.hero2-john {
+  background: url(../images/images-will/John/hero-john/john-wick-hex-hero2.jpg)
+    no-repeat center;
+}
+
+.hero3-john {
+  background: url(../images/images-will/John/hero-john/johnwickhexhero3.png)
+    no-repeat center;
+}
+.hero4-john {
+  background: url(../images/images-will/John/hero-john/hero4john.jpg) no-repeat
+    center;
+}
+/*IMAGENES HERO PARA THE LAST OF US REMASTERED*/
+.hero1-fortnite {
+  background: url(../images/images-will/Fortnite/Hero-Fortnite/fortnite-hero1.jpg)
+    no-repeat center;
+}
+.hero2-fortnite {
+  background: url(../images/images-will/Fortnite/Hero-Fortnite/fortnite-hero2.jpg)
+    no-repeat center;
+}
+
+.hero3-fortnite {
+  background: url(../images/images-will/Fortnite/Hero-Fortnite/fortnite-hero3.jpg)
+    no-repeat center;
+}
+.hero4-fortnite {
+  background: url(../images/images-will/Fortnite/Hero-Fortnite/fortnite-hero4.jpg)
+    no-repeat center;
+}
+
+/*IMAGENES HERO PARA GHOST RECON WILDLANDS*/
+.hero1-ghost {
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero1.jpg)
+    no-repeat center;
+}
+.hero2-ghost {
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero2.jpg)
+    no-repeat center;
+}
+
+.hero3-ghost {
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero3.jpg)
+    no-repeat center;
+}
+.hero4-ghost {
+  background: url(../images/images-will/Ghost/Hero-Ghost/tom_clancy__039_s_ghost_recon_wildlands-hero4.jpg)
+    no-repeat center;
+}
+
+/*IMAGENES HERO PARA RAINBOW SIX SIEGE*/
+.hero1-rainbow {
+  background: url(../images/images-will/RainbowSix/Hero-rainbow/rainbow_six__nombre_provisional_-hero1.jpg)
+    no-repeat center;
+}
+.hero2-rainbow {
+  background: url(../images/images-will/RainbowSix/Hero-rainbow/rainbow_six__nombre_provisional_hero2.jpg)
+    no-repeat center;
+}
+
+.hero3-rainbow {
+  background: url(../images/images-will/RainbowSix/Hero-rainbow/rainbow_six__nombre_provisional_hero3.jpg)
+    no-repeat center;
+}
+.hero4-rainbow {
+  background: url(../images/images-will/RainbowSix/Hero-rainbow/rainbow_six__nombre_provisional_hero4.jpg)
+    no-repeat center;
+}
+
+/*IMAGENES HERO PARA WATCH DOGS 2*/
+.hero1-watch {
+  background: url(../images/images-will/Watchdogs2/hero-watch/watch_dogs_2-hero1.jpg)
+    no-repeat center;
+}
+.hero2-watch {
+  background: url(../images/images-will/Watchdogs2/hero-watch/watch_dogs_2-hero2.jpg)
+    no-repeat center;
+}
+
+.hero3-watch {
+  background: url(../images/images-will/Watchdogs2/hero-watch/watch_dogs_2-hero3.jpg)
+    no-repeat center;
+}
+.hero4-watch {
+  background: url(../images/images-will/Watchdogs2/hero-watch/watch_dogs_2-hero4.jpg)
+    no-repeat center;
+}
+
 .hero {
   position: relative;
   height: 30em;
