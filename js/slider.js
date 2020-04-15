@@ -1,9 +1,8 @@
 addEventListener("DOMContentLoaded", () => {
   const imagenes = [
-    "../images/slider/hero1-bloodborne.jpg",
-    "../images/slider/hero2-bloodborne.jpg",
-    "../images/slider/hero3-bloodborne.jpg",
-    "../images/slider/hero4-bloodborne.jpg",
+    "../images/slider/img1.jpg",
+    "../images/slider/img2.jpg",
+    "../images/slider/img3.jpg",
   ];
   let i = 1;
   const img1 = document.querySelector("#img1");
