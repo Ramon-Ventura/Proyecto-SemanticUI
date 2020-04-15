@@ -3,6 +3,7 @@ addEventListener("DOMContentLoaded", () => {
     "../images/slider/img1.jpg",
     "../images/slider/img2.jpg",
     "../images/slider/img3.jpg",
+    "../images/slider/img4.jpg",
   ];
   let i = 1;
   const img1 = document.querySelector("#img1");
