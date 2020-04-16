@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acercade</title>
+    <!--Semantic UI-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../semantic/dist/semantic.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../semantic/dist/semantic.min.js"></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/slider.css" />
+  </head>
+  <body>
+    <!--Main Menu-->
+    <div class="ui inverted medium attached stackable menu">
+      <div class="ui container">
+        <a class="item"> <i class="home icon"></i>Inicio</a>
+        <a class="item"> <i class="grid layout icon"></i>Noticias</a>
+        <a class="item"> <i class="mail icon"></i> Acerca De </a>
+        <div class="ui simple dropdown item">
+          VideoJuegos
+          <i class="dropdown icon"></i>
+          <div class="ui menu">
+            <a class="item"><i class="edit icon"></i>PC</a>
+            <a class="item"><i class="globe icon"></i>PS4</a>
+            <a class="item"><i class="settings icon"></i>XBOX ONE</a>
+            <a class="item"><i class="settings icon"></i>Switch</a>
+          </div>
+        </div>
+        <div class="right item">
+          <div class="ui input">
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="slideshow_principal">
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="slideshow">
+        <img src="" alt="" id="img1" />
+        <img src="" alt="" id="img2" />
+      </div>
+      <div id="indicadores"></div>
+      <script src="../js/slider.js"></script>
+    </div>
+    <!--Main Container-->
+    <div class="ui justified text container segment">
+      <h2 class="ui header">ACERCA DE NOSOTROS</h2>
+      <div class="ui inverted divider"></div>
+      <p>
+        Somos una empresa con el objetivo de ofrecer una gran variedad de
+        videojuegos a precios accesibles. Además, si nuestros clientes no
+        conocen sobre algún videojuego del catálogo nuestra página es capaz de
+        proporcionarle información relevante como: videos y noticias. Si con eso
+        no es suficiente también nos encargamos de hacer un análisis de cada uno
+        de los videojuegos y determinar una calificación para que el cliente
+        tenga un mejor juicio al momento de elegir su compra.
+      </p>
+    </div>
+    <div class="ui justified text container segment">
+      <h2 class="ui header">CREDITOS</h2>
+      <div class="ui inverted divider"></div>
+      <p>
+        Imagenes e informacion de cada uno de los videojuegos:
+        <a href="https://www.3djuegos.com/">3djuegos</a>
+      </p>
+      <p>
+        Informacion sobre los precios y requisitos:
+        <a href="https://www.amazon.com/">amazon</a> y
+        <a href="https://store.steampowered.com/?l=spanish"> Steam</a>
+      </p>
+      <p>
+        Informacion sobre los precios e ideas para el diseño:
+        <a href="https://uplay.ubisoft.com/en-GB">Uplay</a>
+      </p>
+      <p>
+        Paquetes necesarios del framework utilizado:
+        <a href="https://semantic-ui.com/">Semantic UI</a>
+      </p>
+    </div>
+    <!--ANALISIS DEL JUEGO-->
+    <footer class="site-footer">
+      <div class="ui fluid inverted container">
+        <button class="ui circular facebook icon button">
+          <i class="facebook icon"></i>
+        </button>
+        <button class="ui circular twitter icon button">
+          <i class="twitter icon"></i>
+        </button>
+        <button class="ui circular linkedin icon button">
+          <i class="linkedin icon"></i>
+        </button>
+        <button class="ui circular google plus icon button">
+          <i class="google plus icon"></i>
+        </button>
+        <h3 class="ui inverted header">
+          Semantic Games Todos los derechos resevados &copy;
+        </h3>
+      </div>
+    </footer>
+    <!--Fin del contenedor principal-->
+  </body>
+</html>

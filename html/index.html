@@ -15,6 +15,10 @@
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <script src="../semantic/dist/semantic.min.js"></script>
     <link rel="stylesheet" href="../css/slider.css" />
     <link rel="stylesheet" href="../css/styles.css" />
@@ -22,22 +26,29 @@
   <body>
     <div class="ui inverted medium attached stackable menu">
       <div class="ui container">
-        <a class="item"> <i class="home icon"></i>Inicio</a>
-        <a class="item"> <i class="grid layout icon"></i>Noticias</a>
-        <a class="item"> <i class="mail icon"></i> Acerca De </a>
+        <div class="item">
+          <h3 class="logo-menu">SG</h3>
+        </div>
+        <a class="item" href="index.html"> <i class="home icon"></i>Inicio</a>
+        <a class="item" href="noticias.html">
+          <i class="grid globe icon"></i>Noticias</a
+        >
+        <a class="item" href="acercade.html">
+          <i class="mail icon"></i> Acerca De
+        </a>
         <div class="ui simple dropdown item">
-          VideoJuegos
+          <i class="gamepad icon"></i>VideoJuegos
           <i class="dropdown icon"></i>
           <div class="ui menu">
-            <a class="item"><i class="edit icon"></i>PC</a>
-            <a class="item"><i class="globe icon"></i>PS4</a>
-            <a class="item"><i class="settings icon"></i>XBOX ONE</a>
-            <a class="item"><i class="settings icon"></i>Switch</a>
+            <a class="item" href="PC.html">PC</a>
+            <a class="item" href="ps4.html">PS4</a>
+            <a class="item" href="X-boxOne.html">XBOX ONE</a>
+            <a class="item" href="NintendoSwitch.html">Switch</a>
           </div>
         </div>
         <div class="right item">
           <div class="ui input">
-            <input type="text" placeholder="Search..." />
+            <input type="text" placeholder="Buscar..." />
           </div>
         </div>
       </div>
@@ -61,27 +72,31 @@
       <div class="ui stackable two column grid">
         <div class="column">
           <div class="ui segment">
-            <img
-              class="ui medium centered image"
-              src="../images/consolas/ps4-consola.jpg"
-              alt=""
-            />
+            <a href="ps4.html">
+              <img
+                class="ui medium centered image"
+                src="../images/consolas/ps4-consola.jpg"
+                alt=""
+              />
+            </a>
             <h3 class="ui inverted header">PS4</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui inverted segment">
-            <img
-              class="ui medium centered image"
-              src="../images/consolas/xbox-consola.jpg"
-              alt=""
-            />
+            <a href="X-boxOne.html">
+              <img
+                class="ui medium centered image"
+                src="../images/consolas/xbox-consola.jpg"
+                alt=""
+              />
+            </a>
             <h3 class="ui inverted header">XBOX-ONE</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="NintendoSwitch.html">
               <img
                 class="ui medium centered image"
                 src="../images/consolas/switch-consola.jpg"
@@ -93,11 +108,13 @@
         </div>
         <div class="column">
           <div class="ui segment">
-            <img
-              class="ui medium centered image"
-              src="../images/consolas/pc-consola.jpg"
-              alt=""
-            />
+            <a href="PC.html">
+              <img
+                class="ui medium centered image"
+                src="../images/consolas/pc-consola.jpg"
+                alt=""
+              />
+            </a>
             <h3 class="ui inverted header">PC</h3>
           </div>
         </div>
@@ -109,255 +126,255 @@
       <div class="ui stackable five column grid">
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="BloodBorne.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-ramon/bloodb/bloodborne-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 29.95</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="DeathStranding.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-ramon/dst/dst-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">Death Stranding</h3>
+            <h3 class="ui inverted header">$ 20.99</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="godofwar.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-ramon/gow/godofwar-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted center aligned header">God of War</h3>
+            <h3 class="ui inverted center aligned header">$ 23.50</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="TheLastOfUs.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-ramon/tlu/TheLastOfUs-Caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 11.95</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="Uncharted.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-ramon/uncharted/uncharted-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 8.88</h3>
           </div>
         </div>
         <!--FIN DE LA PRIMERA FILA-->
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="fighterwithin.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-pol/fighterwithin/fwportada.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 29.50</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="ForzaMotorsport6.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-pol/forzamotorsport6/fmportada.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 9.50</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="halo5guardians.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-pol/halo5guardians/haloportada.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 39.50</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="Minecraft.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-pol/minecraft/minecraft3.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 39.50</h3>
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="quantumbreak.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-pol/quantumbreak/qbportada.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 31.99</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="MarioKart8Deluxe.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-nohemy/MarioKart8Deluxe/Caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 46.95</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="SuperMarioSmashBros.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-nohemy/SmashBros/Caratula Super Smash Bros Ultimate.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 68.28</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="SuperMarioOdyssey.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-nohemy/SuperMarioOdyssey/Caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 49.95</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="SuperMarioParty.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-nohemy/SuperMarioParty/Caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 54.95</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="The_Legend_Of_Zelda_Breath_of_the_wild.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-nohemy/Zelda-BreathOfTheWild/Caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 54.95</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="Fortnite.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-will/Fortnite/fortnite-logo.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 49.95</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="GhostReconWildlands.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-will/Ghost/ghost-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">49.95</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="JohnWickHex.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-will/John/john-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 7.99</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="RainbowSixSiege.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-will/RainbowSix/rainbow-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 19.99</h3>
           </div>
         </div>
 
         <div class="column">
           <div class="ui segment">
-            <a href="">
+            <a href="WatchDogs2.html">
               <img
                 class="ui medium centered image"
                 src="../images/images-will/Watchdogs2/watch-caratula.jpg"
                 alt=""
               />
             </a>
-            <h3 class="ui inverted header">BloodBorne</h3>
+            <h3 class="ui inverted header">$ 49.95</h3>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ p {
 }
 
 .ui.simple.dropdown.item .ui.menu {
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .ui.simple.dropdown.item .ui.menu .item {
@@ -83,7 +83,10 @@ p {
 .ui.justified.fluid.container.segment {
   margin-bottom: 10em;
 }
-
+.logo-menu {
+  font-family: "Press Start 2P", cursive;
+  color: var(--white);
+}
 /*ESTILOS PARA EL CATALOGO DE CADA CONSOLA
 COPIAR ESTA SECCION
 */
